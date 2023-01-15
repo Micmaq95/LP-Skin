@@ -1,0 +1,22 @@
+div {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+  }
+
+  .Blank{
+    background-color: #542e2c;
+  }
+
+  .First {
+    background-color: #ffd8bf;
+  }
+
+  .Second {
+    background-color: #fcc3c0;
+  }
+
+  .Third {
+    background-color: #b57572;
+  }
