@@ -1,22 +1,46 @@
+
+body{
+    margin: 0%;
+}
+
+img {
+    width: 400px
+}
+
 div {
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'roboto';
+    margin-bottom: 0px;
     color: #EEEEEE;
+    padding: 30px;
   }
 
-  .Blank{
-    background-color: #542e2c;
+.flex-container{
+    display: flex;
+    flex: 1;
+}
+
+.flex-item {
+    flex: 1;
+    flex-direction: column;
+}
+
+.head{
+    background: linear-gradient(to bottom, #000000 0%, #663306 80%)
+}
+
+.first {
+    background: linear-gradient(to bottom, #663306 0%, #a16324 120%);
   }
 
-  .First {
-    background-color: #ffd8bf;
+.second {
+    background: linear-gradient(to bottom, #a16324 -20%, #a16324 120%);
   }
 
-  .Second {
-    background-color: #fcc3c0;
+.third {
+    background: linear-gradient(to bottom, #a16324 -20%, #edb277 120%);
   }
 
-  .Third {
-    background-color: #b57572;
+.foot {
+    background: linear-gradient(to bottom, #edb277 0%, #edb277 100%);
   }
