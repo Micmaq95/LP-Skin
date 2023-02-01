@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0px;
-  border: 2px solid red;
+ /* border: 2px solid red; */
+}
+span{
+  display: inline;
 }
 
 p{
@@ -24,7 +27,7 @@ div {
     text-align: left;
     font-family: 'roboto';
     margin-bottom: 0px;
-    color: #EEEEEE;
+    color: gray;
     padding: 30px;
   }
 .components{
@@ -42,6 +45,7 @@ div {
     flex-direction: column;
 }
 
+/* 
 .head{
     background: linear-gradient(to bottom, #000000 0%, #663306 80%)
 }
@@ -62,4 +66,5 @@ div {
 
 .foot {
     background: linear-gradient(to bottom, #edb277 0%, #edb277 100%);
-  }
+  }  
+  */
