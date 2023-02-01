@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0px;
+  border: 2px solid red;
+}
+
+p{
+  padding: 30px;
+}
 
 body{
     margin: 0%;
@@ -6,7 +15,11 @@ body{
 img {
     width: 400px
 }
-
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
 div {
     text-align: left;
     font-family: 'roboto';
@@ -14,14 +27,18 @@ div {
     color: #EEEEEE;
     padding: 30px;
   }
+.components{
+  justify-content: space-evenly;
+}
 
 .flex-container{
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
+    
 }
 
 .flex-item {
-    flex: 1;
+    flex: 1 1 auto;
     flex-direction: column;
 }
 
@@ -31,6 +48,8 @@ div {
 
 .first {
     background: linear-gradient(to bottom, #663306 0%, #a16324 120%);
+    justify-content: space space-around;
+    padding: ;
   }
 
 .second {
